@@ -1,0 +1,68 @@
+[
+ {
+  "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/debounce.sv",
+  "InstLine" : 1,
+  "InstName" : "key_debounce",
+  "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/debounce.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "key_debounce"
+ },
+ {
+  "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+  "InstLine" : 1,
+  "InstName" : "stopwatch",
+  "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "stopwatch",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+    "InstLine" : 15,
+    "InstName" : "cnt_10ms0",
+    "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/cnt_10ms.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "cnt_10ms"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+    "InstLine" : 22,
+    "InstName" : "Sec0",
+    "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/sec.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "Sec"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+    "InstLine" : 31,
+    "InstName" : "Mins0",
+    "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/mins.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "Mins"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+    "InstLine" : 39,
+    "InstName" : "bcd0",
+    "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/BCD.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "bcd"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+    "InstLine" : 48,
+    "InstName" : "bcd1",
+    "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/BCD.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "bcd"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+    "InstLine" : 57,
+    "InstName" : "seg0",
+    "ModuleFile" : "C:/Users/Administrator/Documents/stopwatch/src/segdisplay.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "seg_dynamic"
+   }
+  ]
+ }
+]

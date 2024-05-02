@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="stopwatch">
+ <SubModule name="cnt_10ms0" Register="20" Alu="18" Lut="7"/>
+ <SubModule name="Sec0" Register="14" Alu="11" Lut="6"/>
+ <SubModule name="Mins0" Register="13" Alu="10" Lut="6"/>
+ <SubModule name="bcd0" Lut="4"/>
+ <SubModule name="bcd1" Lut="4"/>
+ <SubModule name="seg0" Register="33" Alu="15" Lut="35"/>
+</Module>

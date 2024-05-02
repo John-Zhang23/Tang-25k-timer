@@ -1,0 +1,41 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "C:/Users/Administrator/Documents/stopwatch/src/BCD.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/stopwatch/src/cnt_10ms.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/stopwatch/src/debounce.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/stopwatch/src/main.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/stopwatch/src/mins.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/stopwatch/src/sec.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/stopwatch/src/segdisplay.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Administrator/Documents/stopwatch/impl/temp/rtl_parser.result",
+ "Top" : "stopwatch",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

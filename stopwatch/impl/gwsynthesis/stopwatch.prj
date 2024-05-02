@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5A-25A" package="MBGA121N" speed="1" partNumber="GW5A-LV25MG121NC1/I0"/>
+    <FileList>
+        <File path="C:\Users\Administrator\Documents\stopwatch\src\BCD.sv" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\stopwatch\src\cnt_10ms.sv" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\stopwatch\src\debounce.sv" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\stopwatch\src\main.sv" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\stopwatch\src\mins.sv" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\stopwatch\src\sec.sv" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\stopwatch\src\segdisplay.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\Administrator\Documents\stopwatch\impl\gwsynthesis\stopwatch.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="stopwatch"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NC1/I0">gw5a25a-002</Device>
+    <FileList>
+        <File path="src/BCD.sv" type="file.verilog" enable="1"/>
+        <File path="src/cnt_10ms.sv" type="file.verilog" enable="1"/>
+        <File path="src/debounce.sv" type="file.verilog" enable="1"/>
+        <File path="src/main.sv" type="file.verilog" enable="1"/>
+        <File path="src/mins.sv" type="file.verilog" enable="1"/>
+        <File path="src/sec.sv" type="file.verilog" enable="1"/>
+        <File path="src/segdisplay.sv" type="file.verilog" enable="1"/>
+        <File path="src/stopwatch.cst" type="file.cst" enable="1"/>
+        <File path="src/stopwatch.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
